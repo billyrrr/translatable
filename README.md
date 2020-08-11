@@ -1,6 +1,6 @@
 # Translatable
 
-[translatable.dev](translatable.dev)
+[translatable.dev](https:///translatable.dev) 
 
 This repository is to provide support for a community that 
 translates documentations of open source projects to different 
@@ -38,13 +38,13 @@ Markdown element -> HTML -> Translated HTML -> Markdown element -> Markdown Doc
 
 ## Try it out
 
-See [translatable.dev](translatable.dev). 
+See [translatable.dev](https:///translatable.dev). 
 
 ## Use deployed API 
 
 ``` python
 import requests
-res = requests.post('http://127.0.0.1:8080/translate',
+res = requests.post('https://api.translatable.dev/translate',
             data=mdtextstr.encode('utf-8'), headers={
             'content-type': 'text/plain'
             })
