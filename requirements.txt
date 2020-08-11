@@ -1,0 +1,8 @@
+Flask==1.1.2
+google-cloud-translate==2.0.1
+mistune
+html2markdown
+# apache-flink-statefun
+# gunicorn==20.0.4
+flasgger
+gunicorn
